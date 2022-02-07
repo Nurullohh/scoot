@@ -1,0 +1,66 @@
+.convenient{
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.convenient__list{
+    display: flex;
+    @include reset-list;
+}
+
+.convenient__items{
+    width: 350px;
+}
+
+
+.convenient__span{
+    width: 96px;
+    height: 96px;
+    display: block;
+    background-color: $yellow;
+    border-radius: 50%;
+}
+
+.locate{
+    background-image: url(../../img/locate_with_app.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pick{
+    background-image: url(../../img/pick_your_scooter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.enjoy{
+    background-image: url(../../img/enjoy_the_ride.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+// .convenient__container{
+
+// }
+
+.convenient__title{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin: 40px 0 27px 0;
+
+}
+
+.convenient__description{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}

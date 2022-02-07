@@ -151,11 +151,8 @@ a {
   display: block;
 }
 
-.intro__container {
-  width: 500px;
-}
-
 .intro__title {
+  width: 500px;
   font-family: 'Space Mono', monospace;
   font-style: normal;
   font-weight: bold;
@@ -167,6 +164,13 @@ a {
   display: inline-block;
 }
 
+.intro__container {
+  width: 500px;
+  display: block;
+  margin-left: 95px;
+  padding-bottom: 152px;
+}
+
 .intro__description {
   width: 405px;
   font-family: 'Lexend Deca', sans-serif;
@@ -176,12 +180,137 @@ a {
   line-height: 25px;
   color: #FFFFFF;
   margin-top: 0;
-  margin-left: 95px;
   margin-bottom: 40px;
 }
 
-.intro__span {
-  margin-left: 95px;
-  margin-bottom: 152px;
+.convenient {
+  margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.convenient__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.convenient__items {
+  width: 350px;
+}
+
+.convenient__span {
+  width: 96px;
+  height: 96px;
+  display: block;
+  background-color: #FCB72B;
+  border-radius: 50%;
+}
+
+.locate {
+  background-image: url(../../img/locate_with_app.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pick {
+  background-image: url(../../img/pick_your_scooter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.enjoy {
+  background-image: url(../../img/enjoy_the_ride.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.convenient__title {
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin: 40px 0 27px 0;
+}
+
+.convenient__description {
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.information {
+  margin-top: 200px;
+  margin-bottom: 329px;
+}
+
+.information__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.information__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.information__items:nth-child(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.information__items:nth-child(2n) .information__container {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.information__container {
+  width: 445px;
+  display: inline-block;
+  margin-right: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.information__title {
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin: 0;
+  padding: 0;
+}
+
+.information__description {
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.information__img {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
