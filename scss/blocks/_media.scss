@@ -1,0 +1,13 @@
+.media{
+    @include reset-list;
+    display: flex;
+    align-items: center;
+    margin: 38px 0;
+    flex-shrink: 0;
+
+}
+
+.media__items{
+    margin-left: 24px ;
+
+}

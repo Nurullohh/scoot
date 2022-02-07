@@ -97,7 +97,7 @@ a {
   display: block;
 }
 
-.header__list {
+.control-panel__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -310,7 +310,129 @@ a {
   margin-bottom: 40px;
 }
 
+.information__link {
+  margin: 14px 44px;
+}
+
 .information__img {
   border-radius: 50%;
+}
+
+.application {
+  width: 100%;
+  background: #495567;
+}
+
+.sign-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sign-up__title {
+  width: 415px;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  margin: 102px 0;
+}
+
+.sing-up__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 122px 0 122px auto;
+}
+
+.sign-up__links {
+  width: 178px;
+  background: #E5ECF4;
+  border-radius: 4px;
+  margin-right: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sign-up__links:nth-child(2n) {
+  margin-right: 0;
+}
+
+.sign-up__apple {
+  width: 25px;
+  height: 27px;
+  display: block;
+  background-image: url(../img/apple-store.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px 12px 14px 16px;
+}
+
+.sign-up__google {
+  width: 27px;
+  height: 27px;
+  display: block;
+  background-image: url(../img/google-play.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 16px 10px 13px 16px;
+}
+
+.sign-up__p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: -0.446429px;
+  color: #495567;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  margin-top: 8px;
+}
+
+.sign-up__store {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.892857px;
+  color: #495567;
+}
+
+.footer {
+  background-color: #333A44;
+}
+
+.media {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 38px 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.media__items {
+  margin-left: 24px;
 }
 /*# sourceMappingURL=main.css.map */
