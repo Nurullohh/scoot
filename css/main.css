@@ -11,7 +11,7 @@ body {
   font-family: 'Space Mono', monospace;
   font-size: 15px;
   line-height: 25px;
-  background: #F2F2F2;
+  background: #FFFFFF;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,5 +61,101 @@ a {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+.header {
+  margin: 22px 165px 21px 169px;
+}
+
+.container {
+  width: 1106px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.control-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.control-panel__link {
+  margin-right: 58px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.control-panel__img {
+  display: block;
+}
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.control-panel__items {
+  display: block;
+  margin-right: 32px;
+}
+
+.control-panel__items-link {
+  color: #939CAA;
+}
+
+.get-scootin {
+  width: 181px;
+  height: 53px;
+  background: #FCB72B;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.get-scootin__link {
+  color: #FFFFFF;
+  margin: 14px 39px;
+  display: inline-block;
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.intro {
+  background-image: url(/img/intro_backgroun_img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.intro__container {
+  width: 500px;
+}
+
+.intro__title {
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 153px 165px 40px 0;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */

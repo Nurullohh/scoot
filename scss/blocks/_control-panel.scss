@@ -1,0 +1,32 @@
+.control-panel{
+    display: flex;
+    align-items: center;
+}
+
+.control-panel__link{
+    margin-right: 58px;
+    flex-shrink: 0;
+  
+}
+
+.control-panel__img{
+    display: block;
+}
+
+.header__list{
+    @include reset-list;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.control-panel__items{
+    display: block;
+    margin-right: 32px;
+
+}
+
+.control-panel__items-link{
+     color: #939CAA;
+
+}

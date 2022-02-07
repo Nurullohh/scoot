@@ -1,0 +1,25 @@
+.intro{
+    // height: 1740px;
+    background-image: url(/img/intro_backgroun_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    @include remov-p-m;
+    display: block;
+}
+
+.intro__container{
+    width: 500px;
+}
+
+.intro__title{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    margin: 153px 165px 40px 0;
+    display: inline-block;
+}
+
