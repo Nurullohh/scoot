@@ -67,6 +67,11 @@ a {
   margin: 22px 165px 21px 169px;
 }
 
+.header__span {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 .container {
   width: 1106px;
   margin-right: auto;
@@ -119,8 +124,7 @@ a {
   width: 181px;
   height: 53px;
   background: #FCB72B;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  display: inline-block;
 }
 
 .get-scootin__link {
@@ -135,11 +139,15 @@ a {
 }
 
 .intro {
+  width: 1440px;
   background-image: url(/img/intro_backgroun_img.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  margin-right: auto;
+  margin-left: auto;
   display: block;
 }
 
@@ -155,7 +163,25 @@ a {
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #FFFFFF;
-  margin: 153px 165px 40px 0;
+  margin: 153px 0 40px 0;
   display: inline-block;
+}
+
+.intro__description {
+  width: 405px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-left: 95px;
+  margin-bottom: 40px;
+}
+
+.intro__span {
+  margin-left: 95px;
+  margin-bottom: 152px;
 }
 /*# sourceMappingURL=main.css.map */

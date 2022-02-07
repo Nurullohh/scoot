@@ -1,9 +1,12 @@
 .intro{
-    // height: 1740px;
+    width: 1440px;
     background-image: url(/img/intro_backgroun_img.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     @include remov-p-m;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
 }
 
@@ -19,7 +22,25 @@
     line-height: 56px;
     letter-spacing: -2.5px;
     color: #FFFFFF;
-    margin: 153px 165px 40px 0;
+    margin: 153px 0 40px 0;
     display: inline-block;
 }
 
+.intro__description{
+    width: 405px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-left: 95px;
+    margin-bottom: 40px;
+
+}
+
+.intro__span{
+    margin-left: 95px;
+    margin-bottom: 152px;
+}
