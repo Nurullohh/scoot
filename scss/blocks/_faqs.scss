@@ -124,3 +124,46 @@
     }
 }
 
+
+
+@media screen and (max-width: $tablet) {
+    .faqs__container{
+        max-width: 689px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .faqs__items{
+        text-align: start;
+    }
+
+
+}
+
+
+@media screen and (max-width: $mobile) {
+    .faqs__container{
+        max-width: 311px;
+    }
+
+    .faqs__items{
+        width: 311px;
+        display: inline-block;
+        
+
+    }
+    .faqs__butten{
+        margin: 52px 28px 44px 16px;
+    }
+
+    .faqs__title{
+        width: 251px;
+        display: inline-block;
+    }
+    
+    .faqs__description{
+        width: 251px;
+        margin: 0 28px 32px 0 ;
+    }
+}
+

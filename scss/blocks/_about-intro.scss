@@ -1,6 +1,6 @@
 .about-intro{
     width: 1440px;
-    background-image: url(../../img/about_intro.svg);
+    background-image: url(../../img/about_intro.svg );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,4 +21,26 @@
     color: $white;
     margin: 72px auto 72px 0;
     display: inline-block;
+}
+
+
+@media screen and (max-width: $tablet) {
+    .about-intro{
+        width: 768px;
+        background-image: url(../../img/about_tablet-intro.jpg);
+        
+    }
+
+    .about-intro__title{
+        margin-left: 97px;
+    }
+}
+
+
+@media screen and (max-width: $mobile) {
+    .about-intro{
+        width: 375px;
+        background-image: url(../../img/about-mobile-intro.jpg);
+        
+    }
 }

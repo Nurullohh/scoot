@@ -86,3 +86,24 @@
     color: $grey;
 
 }
+
+
+
+@media screen and (max-width: $tablet) {
+    .our-values__list{
+        flex-direction: column;
+    }
+    
+    .our-values__items{
+        width: 457px;
+        margin-right: auto;
+        margin-left: auto ;
+    }
+}
+
+
+@media screen and (max-width: $mobile) {
+    .our-values__items{
+        width: 311px;
+    }
+}

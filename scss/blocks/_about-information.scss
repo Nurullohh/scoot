@@ -63,3 +63,32 @@
     position: relative;
 }
 
+
+
+@media screen and (max-width: $tablet) {
+
+    .about-line1::after{
+        content: "";
+        display: none;
+    }
+    
+    .about-line1::before{
+        content: "";
+        display: none;
+    }
+    
+    
+    
+    .about-line2::after{
+        content: "";
+        display: none;
+    }
+    
+    
+    .about-line2::before{
+        content: "";
+        display: none;
+    }
+}
+
+

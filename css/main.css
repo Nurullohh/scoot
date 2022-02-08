@@ -993,6 +993,23 @@ a {
   display: inline-block;
 }
 
+@media screen and (max-width: 1439px) {
+  .about-intro {
+    width: 768px;
+    background-image: url(../../img/about_tablet-intro.jpg);
+  }
+  .about-intro__title {
+    margin-left: 97px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-intro {
+    width: 375px;
+    background-image: url(../../img/about-mobile-intro.jpg);
+  }
+}
+
 .our-values {
   font-family: 'Space Mono', monospace;
   font-style: normal;
@@ -1079,6 +1096,26 @@ a {
   color: #939CAA;
 }
 
+@media screen and (max-width: 1439px) {
+  .our-values__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-values__items {
+    width: 457px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-values__items {
+    width: 311px;
+  }
+}
+
 .about-information {
   margin-top: 120px;
   margin-bottom: 78px;
@@ -1138,6 +1175,25 @@ a {
 
 .about-line3 {
   position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .about-line1::after {
+    content: "";
+    display: none;
+  }
+  .about-line1::before {
+    content: "";
+    display: none;
+  }
+  .about-line2::after {
+    content: "";
+    display: none;
+  }
+  .about-line2::before {
+    content: "";
+    display: none;
+  }
 }
 
 .faqs__container {
@@ -1260,5 +1316,40 @@ a {
 
 .faqs__items:hover .faqs__butten {
   background: #FFF4DF;
+}
+
+@media screen and (max-width: 1439px) {
+  .faqs__container {
+    max-width: 689px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .faqs__items {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .faqs__container {
+    max-width: 311px;
+  }
+  .faqs__items {
+    width: 311px;
+    display: inline-block;
+  }
+  .faqs__butten {
+    margin: 52px 28px 44px 16px;
+  }
+  .faqs__title {
+    width: 251px;
+    display: inline-block;
+  }
+  .faqs__description {
+    width: 251px;
+    margin: 0 28px 32px 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
