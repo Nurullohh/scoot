@@ -102,6 +102,12 @@
         
     }
 
+    .convenient__items::before{
+        content: "";
+        display: none;
+        
+    }
+
     .convenient__title{
         width: 398px;
         margin-top: 0;
@@ -152,6 +158,12 @@
     .convenient__span{
         @include remov-p-m;
         margin-bottom: 24px;
+    }
+
+    .convenient__items::before{
+        content: "";
+        display: none;
+        
     }
   
 }

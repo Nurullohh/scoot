@@ -108,6 +108,12 @@
         
     }
 
+    .application::after{
+        content: "";
+        display: block;
+    }
+
+
     .sign-up__title{
         width: 457px;
         margin: 62px 156px 40px 155px;
@@ -123,6 +129,16 @@
 
 
 @media screen and (max-width: $mobile) {
+    .sign-up{
+        width: 375px;
+        
+    }
+
+    .application::after{
+        content: "";
+        display: block;
+    }
+
     .sign-up__title{
         width: 311px;
         font-size: 32px;
