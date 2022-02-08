@@ -1,0 +1,96 @@
+.faqs__container{
+    display: flex;
+}
+
+.faqs{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+
+
+}
+
+.faqs__h3{
+    @include remov-p-m;
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78571px;
+    color: #495567;
+    flex-grow: 1;
+
+}
+
+.faqs__list{
+    @include reset-list;
+    margin-bottom: 64px;
+}
+
+.faqs__items{
+    width: 730px;
+    background: #F2F5F9;
+    margin-bottom: 16px;
+    padding-left: 40px;
+
+}
+
+.faqs__span{
+    display: flex;
+
+
+}
+
+.faqs__title{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+
+}
+
+.faqs__butten{
+    border: none;
+    background: #F2F5F9;
+    height: 28px;
+    align-self: center;
+    margin-right: 40px;
+    margin-left: auto;
+
+}
+
+
+.faqs__description{
+    width: 650px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #495567;
+    @include remov-p-m;
+
+
+}
+
+
+.faqs__items:hover{
+    background: #FFF4DF;
+    transition: 200ms;
+    .faqs__butten{
+        background: #FFF4DF;
+    }
+}
+

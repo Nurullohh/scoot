@@ -27,6 +27,11 @@
 }
 
 .control-panel__items-link{
-     color: #939CAA;
+     color: $grey;
 
+}
+
+.control-panel__items-link:hover{
+    color: #FCB72B;
+    transition: 250ms ease;
 }

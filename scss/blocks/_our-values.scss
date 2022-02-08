@@ -1,0 +1,60 @@
+.our-values{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    margin-bottom: 95px;
+
+}
+
+
+.our-values__list{
+    @include reset-list;
+    display: flex;
+    
+
+}
+
+.our-values__items{
+    width: 350px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.our-values__items:last-child{
+    margin-right: 0;
+}
+
+.our-values__img{
+    border-radius: 50%;
+
+}
+
+.our-values__title{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -1.07143px;
+    color: #495567;
+    margin-top: 87px;
+
+}
+
+.our-values__description{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: $grey;
+
+}

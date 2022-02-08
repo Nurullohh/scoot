@@ -1,0 +1,24 @@
+.about-intro{
+    width: 1440px;
+    background-image: url(../../img/about_intro.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.about-intro__title{
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: $white;
+    margin: 72px auto 72px 0;
+    display: inline-block;
+}
