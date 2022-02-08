@@ -4,6 +4,38 @@
 }
 
 
+
+@media screen and (max-width: $mobile) {
+    .footer{
+        width: 375px;
+        text-align: center;
+    }
+
+    .footer__container{
+        margin-top: 64px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .footer__img{
+        margin-right: auto;
+        margin-left: auto; 
+    }
+
+    .footer__list{
+        display: block;
+        margin-bottom: 87px;
+    }
+    
+    .footer__items{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
+
  
 
 

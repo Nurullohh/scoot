@@ -35,3 +35,14 @@
     color: #FCB72B;
     transition: 250ms ease;
 }
+
+
+
+
+@media screen and (max-width: $tablet) {
+    .control-panel{
+        margin-left: 39px;
+        margin-right: 40px;
+    }
+  
+}

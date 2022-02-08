@@ -1,5 +1,5 @@
-.intro{
-    width: 1440px;
+.intro-img{
+    max-width: 1440px;
     background-image: url(/img/intro_backgroun_img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -9,6 +9,15 @@
     margin-left: auto;
     display: block;
 }
+
+.intro{
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+   
+}
+
 
 
 .intro__title{
@@ -20,6 +29,7 @@
     line-height: 56px;
     letter-spacing: -2.5px;
     color: $white;
+    display: block;
     margin: 153px 0 40px 0;
     display: inline-block;
 }
@@ -29,6 +39,32 @@
     display: block;
     margin-left: 95px;
     padding-bottom: 152px;
+    position: relative;
+}
+
+.intro__container::before{
+    content: "";
+    width: 202px;
+    height: 20px;
+    background-image: url(../img/home-intro-line1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top:  11%;
+    left: -52%;
+}
+
+.intro__container::after{
+    content: "";
+    width: 447px;
+    height: 150px;
+    background-image: url(../img/home-intro-line2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 11%;
+    left: 444px;
+    
 }
 
 
@@ -45,3 +81,74 @@
 }
 
 
+@media screen and (max-width: $tablet) {
+    .intro{
+        max-width: 768px;
+        background-image: url(/img/tablet_intro.jpg);
+        display: inline-block;
+    }
+
+    .intro__title{
+        width: 573px;
+        margin: 137px 98px 24px 97px;
+        text-align: center;   
+    }
+
+    .intro__description{
+        width: 573px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    
+    .intro__container{
+        width: 573px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: $mobile){
+    .intro {
+        width: 375px;
+        background-image: url(../../img/mobile-intro.jpg);
+        
+    }
+
+    .intro__title{
+        width: 311px;
+        font-size: 40px;
+        line-height: 40px;   
+        letter-spacing: -1.78571px;
+        margin: 115px 32px 24px 32px;
+    }
+    
+    
+    .intro__description{
+        display:  block;
+        margin: 0;
+        width: 311px;
+        margin-right: 32px;
+        margin-left: 32px;
+        margin-bottom: 34px;
+    }
+    
+    
+    .intro__container{
+        display: inline-block;
+        width: 311px;
+        margin: 0 auto;
+        padding-bottom: 179px;
+    }
+    
+    .intro__span{
+        margin-right: 97px;
+        margin-left: 98px;
+        
+    }
+    
+    // .intro__span-link{
+        //     margin-right: 10px;
+        // }
+        
+    }

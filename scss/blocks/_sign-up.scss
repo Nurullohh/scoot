@@ -1,7 +1,19 @@
 .application{
     width: 100%;
     background: #495567;
+    position: relative;
+}
 
+.application::after{
+    content: "";
+    width: 1000px;
+    height: 173px;
+    background-image: url(../../img/home-footer-sercel.svg);
+    background-repeat: no-repeat;
+    background-position: 0 ;
+    position: absolute;
+    bottom: -2%;
+    right: 22%;
 }
 
 .sign-up{
@@ -85,5 +97,43 @@
     line-height: 24px;
     letter-spacing: -0.892857px;
     color: #495567;
+}
+
+
+
+@media screen and (max-width: $tablet) {
+    .sign-up{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .sign-up__title{
+        width: 457px;
+        margin: 62px 156px 40px 155px;
+    }
+
+
+    .sing-up__container{
+        @include remov-p-m;
+        margin-bottom: 62px;
+    }
+  
+}
+
+
+@media screen and (max-width: $mobile) {
+    .sign-up__title{
+        width: 311px;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -1.42857px;
+    }
+
+
+    .sign-up__links{
+        margin-right: 12px;
+    }
 }
 

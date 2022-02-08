@@ -2,3 +2,64 @@
     margin-top: 120px;
     margin-bottom: 78px;
 }
+
+.about-line1{
+    position: relative;
+}
+
+
+.about-line1::after{
+    content: "";
+    width: 745px;
+    height: 139px;
+    background-image: url(../../img/about-line1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 60%;
+    right: -15%;
+}
+
+.about-line1::before{
+    content: "";
+    width: 455px;
+    height: 455px;
+    background-image: url(../../img/home-main-sercel1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    right: -45%;
+}
+
+
+
+.about-line2::after{
+    content: "";
+    width: 745px;
+    height: 139px;
+    background-image: url(../../img/home-intro-line2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 2%;
+    right: 69%;
+}
+
+
+.about-line2::before{
+    content: "";
+    width: 455px;
+    height: 455px;
+    background-image: url(../../img/home-main-sercel1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0%;
+    left: -45%;
+}
+
+.about-line3{
+    position: relative;
+}
+

@@ -31,7 +31,37 @@
 .faqs__list{
     @include reset-list;
     margin-bottom: 64px;
+    position: relative;
 }
+
+
+
+.faqs-line1::after{
+    content: "";
+    width: 734px;
+    height: 40px;
+    background-image: url(../../img/home-intro-line1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 70%;
+    left: -112%;
+    
+}
+
+.faqs-line1::before{
+    content: "";
+    width: 445px;
+    height: 446px;
+    background-image: url(../../img/home-main-sercel1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: -112%;
+    
+}
+
 
 .faqs__items{
     width: 730px;

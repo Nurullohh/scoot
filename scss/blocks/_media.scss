@@ -11,3 +11,29 @@
     margin-left: 24px ;
 
 }
+
+.media__img{
+    display: block;
+}
+
+
+
+
+
+@media screen and (max-width: $tablet) {
+    .footer__container{
+        margin-left: 39px;
+    }
+
+    .media{
+        margin-right: 40px;
+    }
+  
+}
+
+
+@media screen and (max-width: $mobile) {
+    .media{
+        margin-bottom: 88px;
+    }
+}

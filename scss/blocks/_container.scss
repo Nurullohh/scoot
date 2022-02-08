@@ -1,5 +1,22 @@
 .container{
-    width: 1110px;
+    max-width: 1110px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media screen and (max-width: $tablet) {
+    .container{
+        max-width: 768px;
+       
+    }
+}
+
+
+@media screen and (max-width: $mobile) {
+   .container{
+       max-width: 311px;
+       margin: 0%;
+       margin-right: auto;
+       margin-left: auto;
+   }
 }

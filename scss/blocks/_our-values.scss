@@ -24,6 +24,7 @@
     display: inline-block;
     text-align: center;
     margin-right: 30px;
+    position: relative;
 }
 
 .our-values__items:last-child{
@@ -34,6 +35,33 @@
     border-radius: 50%;
 
 }
+
+.yellow-sercel{
+    width: 96px;
+    height: 96px;
+    background-color: $yellow;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.one-sercel{
+    background-image: url(../../img/about-sercel1.svg);
+}
+
+.two-sercel{
+    background-image: url(../../img/about-sercel2.svg);
+}
+
+.three-sercel{
+    background-image: url(../../img/about-sercel3.svg);
+}
+
 
 .our-values__title{
     font-family: 'Space Mono', monospace;
